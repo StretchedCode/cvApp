@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/header';
+import Form from './components/form';
 import './stylesheets/App.scss';
 
 class App extends Component{
@@ -11,7 +12,10 @@ class App extends Component{
   render(){
 
     return (
-      <Header></Header>
+      <div>
+        <Header></Header>
+        <Form></Form>
+      </div>
     )
   }
 }
