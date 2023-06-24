@@ -256,6 +256,7 @@ class Form extends Component{
         return workFields
     }
 
+    
     render(){
         const {generalInfo, educationInfo, workInfo} = this.state
         const firstNameInputFunc = this.firstNameInputHandle
