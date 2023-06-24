@@ -1,5 +1,6 @@
 {
   "name": "cv-project",
+  "homepage": "https://stretchedcode.github.io/cvApp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
