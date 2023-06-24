@@ -256,11 +256,6 @@ class Form extends Component{
         return workFields
     }
 
-    log = (e) => {
-        e.preventDefault()
-        console.log(this.state)
-    }
-
     render(){
         const {generalInfo, educationInfo, workInfo} = this.state
         const firstNameInputFunc = this.firstNameInputHandle
@@ -289,7 +284,6 @@ class Form extends Component{
                         {this.createWorkExperience()}
                         <button onClick={this.handleWorkExperience}>Add Work Experience</button>
                     </div>
-                    <button onClick={this.log}>Log Data</button>
                 </form>
                 <Resume information={this.state}></Resume>
             </div>
